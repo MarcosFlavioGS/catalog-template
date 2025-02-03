@@ -5,8 +5,9 @@ import { productList } from '@/data/products'
 import { company } from '@/data/company'
 import { Badge } from '@/components/ui/badge'
 import Link from 'next/link'
+import { FunctionComponent } from 'react'
 
-export default function CatalogPage() {
+const CatalogPage: FunctionComponent = () => {
   return (
     <div className='container mx-auto px-4 py-8'>
       <div className='text-center mb-12'>
@@ -65,3 +66,5 @@ export default function CatalogPage() {
     </div>
   )
 }
+
+export default CatalogPage

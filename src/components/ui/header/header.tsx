@@ -4,10 +4,10 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ShoppingCart } from 'lucide-react'
 import { company } from '@/data/company'
-import { useState } from 'react'
+import { FunctionComponent, useState } from 'react'
 import { Menu, X } from 'lucide-react'
 
-export function Header() {
+const Header: FunctionComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
@@ -86,3 +86,5 @@ export function Header() {
     </header>
   )
 }
+
+export default Header

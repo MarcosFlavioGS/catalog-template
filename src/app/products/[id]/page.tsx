@@ -1,11 +1,11 @@
 import { productList } from '@/data/products'
-import { Header } from '@/components/ui/header/header'
+import Header from '@/components/ui/header/header'
 import Footer from '@/components/ui/footer/footer'
 import Image from 'next/image'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 
-export default async function ProductDetailPage({ params }: { params: Promise<{ id: string }> }) {
+const ProductDetailPage = async ({ params }: { params: Promise<{ id: string }> }) => {
   const id = (await params).id
   const product = productList.find((p) => p.id === id)
 
@@ -100,3 +100,5 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
     </div>
   )
 }
+
+export default ProductDetailPage

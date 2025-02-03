@@ -1,4 +1,4 @@
-import { Header } from '@/components/ui/header/header'
+import Header from '@/components/ui/header/header'
 import CatalogPage from './catalog/page'
 import Footer from '@/components/ui/footer/footer'
 

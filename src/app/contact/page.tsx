@@ -1,16 +1,16 @@
 'use client'
 
-import { Header } from '@/components/ui/header/header'
+import Header from '@/components/ui/header/header'
 import Footer from '@/components/ui/footer/footer'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
-import { useState } from 'react'
+import { FunctionComponent, useState } from 'react'
 
 import { company } from '@/data/company'
 
-export default function ContactPage() {
+const ContactPage: FunctionComponent = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
@@ -71,3 +71,5 @@ export default function ContactPage() {
     </div>
   )
 }
+
+export default ContactPage

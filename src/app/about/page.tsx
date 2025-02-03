@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
-import { Header } from '@/components/ui/header/header'
+import Header from '@/components/ui/header/header'
 import { company } from '@/data/company'
+import { FunctionComponent } from 'react'
 
-export default function AboutPage() {
+const AboutPage: FunctionComponent = () => {
   return (
     <div className='bg-white'>
       <Header />
@@ -55,3 +56,5 @@ export default function AboutPage() {
     </div>
   )
 }
+
+export default AboutPage
