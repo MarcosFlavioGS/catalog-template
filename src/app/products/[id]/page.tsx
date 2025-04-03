@@ -1,4 +1,4 @@
-import { productList } from '@/data/products'
+import productsData from '@/data/products.json'
 import Header from '@/components/ui/header/header'
 import Footer from '@/components/ui/footer/footer'
 import Image from 'next/image'
@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button'
 
 const ProductDetailPage = async ({ params }: { params: Promise<{ id: string }> }) => {
   const id = (await params).id
-  const product = productList.find((p) => p.id === id)
+  const product = productsData.productList.find((p) => p.id === id)
 
   if (!product) {
     return <div>Produto não encontrado</div>

@@ -1,13 +1,15 @@
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
-import { productList } from '@/data/products'
+import productsData from '@/data/products.json'
 import { company } from '@/data/company'
 import { Badge } from '@/components/ui/badge'
 import Link from 'next/link'
 import { FunctionComponent } from 'react'
 
 const CatalogPage: FunctionComponent = () => {
+  const productList = productsData.productList
+
   return (
     <div className='container mx-auto px-4 py-8'>
       <div className='text-center mb-12'>
