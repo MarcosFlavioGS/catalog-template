@@ -1,14 +1,200 @@
-{
-  "productList": [
-    {
-      "id": "1",
-      "name": "ProductName",
-      "description": "This is the description",
-      "price": 45.99,
-      "category": "Category",
-      "imageUrl": "/products/kraft.jpg",
-      "sizeOptions": ["50cm", "70cm", "120cm", "100cm", "160cm"],
-      "weight": ["20g/m²"]
-    }
-  ]
-} 
+[
+  {
+    "id": "1",
+    "name": "Papel Seda",
+    "description": "Papel seda em bobina",
+    "price": 45.99,
+    "category": "Seda",
+    "imageUrl": "/products/Seda4.jpg",
+    "sizeOptions": [
+      "50cm",
+      "70cm",
+      "120cm",
+      "100cm",
+      "160cm"
+    ],
+    "weight": [
+      "20g/m²"
+    ],
+    "lengthOptions": [
+	  "50m",
+	  "70m",
+      "100m",
+      "200m"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Papel Kraft",
+    "description": "Papel Kraft em bobina",
+    "price": 32.5,
+    "category": "Kraft",
+    "imageUrl": "/products/kraft.jpg",
+    "sizeOptions": [
+      "160cm",
+      "170cm",
+      "180cm"
+    ],
+    "weight": [
+      "35g/m²"
+    ],
+    "lengthOptions": [
+      "100m",
+      "250m",
+      "400m"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Papel Molde",
+    "description": "Papel Kraft molde em bobina",
+    "price": 32.5,
+    "category": "Molde",
+    "imageUrl": "/products/Molde1.jpg",
+    "sizeOptions": [
+      "120cm"
+    ],
+    "weight": [
+      "80g/m²",
+      "120/m²",
+      "140/m²",
+      "200g/m²",
+      "300g/m²"
+    ],
+    "lengthOptions": [
+      "50m",
+      "100m"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Papel Intercalar",
+    "description": "Papel de Intercalar em bobina",
+    "price": 32.5,
+    "category": "Intercalar",
+    "imageUrl": "/products/Intercalar.jpg",
+    "sizeOptions": [
+      "160cm",
+      "180cm"
+    ],
+    "weight": [
+      "24g/m²"
+    ],
+    "lengthOptions": [
+      "300m",
+      "250m"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Papel branco",
+    "description": "Papel branco sulfite",
+    "price": 32.5,
+    "category": "Branco",
+    "imageUrl": "/products/branco.jpg",
+    "sizeOptions": [
+      "91,4cm",
+      "160cm",
+      "180cm",
+      "184cm"
+    ],
+    "weight": [
+      "40g/m²"
+    ],
+	 "lengthOptions": [
+       "914cm",
+       "70m",
+       "100m",
+       "250m"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Papel Kraft Mix",
+    "description": "Papel ecologico kraft mix",
+    "price": 32.5,
+    "category": "Mix",
+    "imageUrl": "/products/mix.jpg",
+    "sizeOptions": [
+      "120cm",
+      "160cm",
+      "180cm",
+      "184cm"
+    ],
+    "weight": [
+      "40g/m²",
+      "60g/m²"
+    ],
+    "lengthOptions": [
+      "914cm",
+      "70m",
+      "250m",
+      "300m"
+    ]
+  },
+  {
+    "id": "1743718888454",
+    "name": "Produto teste",
+    "description": "Produto para tessstar",
+    "price": 55,
+    "category": "teste",
+    "imageUrl": "/seda.png",
+    "sizeOptions": [
+      "50cm"
+    ],
+    "weight": [
+      "20g/m²"
+    ],
+    "lengthOptions": [
+      "50m",
+      "100m"
+    ]
+  },
+  {
+    "id": "1743719041958",
+    "name": "outro teste",
+    "description": "testatndo de novo",
+    "price": 55,
+    "category": "teste",
+    "imageUrl": "/kraft.png",
+    "sizeOptions": [
+      "70cm"
+    ],
+    "weight": [
+      "20g/m²"
+    ]
+  },
+  {
+    "id": "1743879531282",
+    "name": "papel test",
+    "description": "papel de teste de cadastro",
+    "price": 33,
+    "category": "teste",
+    "imageUrl": "/seda.png",
+    "sizeOptions": [
+      "50cm. 60cm"
+    ],
+    "weight": [
+      "20g/m²"
+    ]
+  },
+  {
+    "id": "1743879654774",
+    "name": "Marcos Flávio",
+    "description": "teste",
+    "price": 33,
+    "category": "teste",
+    "imageUrl": "/seda.png",
+    "sizeOptions": [
+      "50cm",
+      "60cm"
+    ],
+    "weight": [
+      "20g/m²"
+    ],
+    "lengthOptions": [
+      "75m",
+      "150m"
+    ]
+  }
+]

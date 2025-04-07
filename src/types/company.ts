@@ -5,7 +5,6 @@ export interface Company {
   webSite: string
   logoUrl: string
   about: string
-  slogan: string
   phone?: string
   products?: Product[]
 }

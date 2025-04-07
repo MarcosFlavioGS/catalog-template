@@ -1,11 +1,10 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
-import Header from '@/components/ui/header/header'
+import { Header } from '@/components/ui/header/header'
 import { company } from '@/data/company'
-import { FunctionComponent } from 'react'
 
-const AboutPage: FunctionComponent = () => {
+export default function AboutPage() {
   return (
     <div className='bg-white'>
       <Header />
@@ -13,7 +12,7 @@ const AboutPage: FunctionComponent = () => {
       {/* Hero Section */}
       <div className='bg-gray-50 py-20'>
         <div className='container mx-auto px-4 text-center'>
-          <h1 className='text-4xl font-bold text-gray-900 mb-4'>{company.name}</h1>
+          <h1 className='text-4xl font-bold text-gray-900 mb-4'>Sobre a {company.name}</h1>
           <p className='text-lg text-muted-foreground'>Conheça mais sobre nossa história, missão e equipe.</p>
         </div>
       </div>
@@ -56,5 +55,3 @@ const AboutPage: FunctionComponent = () => {
     </div>
   )
 }
-
-export default AboutPage
